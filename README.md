@@ -8,3 +8,6 @@
 
 Asciinema generate_difference with json files: https://asciinema.org/a/XwyIbhJHHTFajc7VHEAFmBGUN
 Asciinema generate_difference with yml files: https://asciinema.org/a/sAZoh6Zgoi9vJDNx9rZzZJ9jj
+Asciinema generete_difference with complex json files: https://asciinema.org/a/J8XZrrkszLlgF8RFKDHCLTLup
+Asciinema generete_difference with complex json files in json format: https://asciinema.org/a/xf39t6rrh9JRy8VCEHzzmFYlQ
+Asciinema generete_difference with complex json files in plain format: https://asciinema.org/a/oiCJDEJjWZqAOM2pRstmLDzx0
