@@ -1,0 +1,19 @@
+name: Makefile - lint
+
+on: push
+
+jobs:
+  start-linter:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: setup-python
+      uses: actions/setup-python@v2
+    - name: install1
+      run:  pip install poetry
+    - name: install2
+      run: make install      
+    - name: lint
+      run: make lint

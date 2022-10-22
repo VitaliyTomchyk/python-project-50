@@ -1,0 +1,25 @@
+name: Makefile - tests
+
+on: push
+
+jobs:
+  start-tests:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: setup-python
+      uses: actions/setup-python@v2
+    - name: install1
+      run:  pip install poetry
+    - name: install2
+      run: pip install pytest
+    - name: install3
+      run: pip install pyyaml
+    - name: install4
+      run: make install
+    - name: update
+      run: make update  
+    - name: test
+      run: make test
