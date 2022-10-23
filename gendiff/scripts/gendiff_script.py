@@ -1,5 +1,5 @@
 from gendiff.cli.cli import parcer
-from gendiff.generate_diff.gendiff import generate_diff
+from gendiff.generate_diff.generate_diff import generate_diff
 
 
 def main():

@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from gendiff.formater.formater import stylish, plain, json_decoder
 from gendiff.additionals.additional_tools import files_to_dict_reader
 from gendiff.dictionaries.generator import diff_dict_generator
